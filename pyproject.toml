@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "airflow-curso-hands-on-intro"
+version = "0.1.0"
+description = ""
+authors = ["LucianoBorba <luhborbafilho@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+taskipy = "^1.12.2"
+mkdocs = "^1.5.3"
+black = "^24.4.0"
+isort = "^5.13.2"
+pydocstyle = "^6.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
