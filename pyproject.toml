@@ -17,3 +17,9 @@ pydocstyle = "^6.3.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+init = "astro dev init"
+run = "astro dev start --wait 2m"
+format = "black . && isort ."
+docs = "mkdocs serve"
